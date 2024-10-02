@@ -27,19 +27,22 @@ Follow these steps to get Stacy up and running on your own server.
    ```bash
    git clone https://github.com/oxyzox/stacy-bot.git
    cd stacy-bot
-```
+    ```
 
-### Install the required libraries:
-```pip install -r requirements.txt```
+2. **Install the required libraries:**
 
-### Set up environment variables:
+ ```pip install -r requirements.txt```
 
-Create a ```.env``` file and add your Discord bot token:
 
-``` TOKEN=your-discord-bot-token-here ```
+3. **Set up environment variables:**
 
-### Run the bot: 
+    Create a ```.env``` file and add your Discord bot token:
 
-```python main.py ```
+```TOKEN=your-discord-bot-token-here```
 
-Made with ❤️ by oxyzox
+4. **Run the bot:**
+
+``` python main.py```
+
+
+**Made with ❤️ by oxyzox**
